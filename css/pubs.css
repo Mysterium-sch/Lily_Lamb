@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+av {
+    justify-content: right;
+    justify-self: right;
+}
+
+body {
+    background-image: url("../image/background.jpeg");
+}
+
+
+ul {
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+li {
+    padding: 5px;
+    color: white;
+    background-color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

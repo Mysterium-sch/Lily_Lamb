@@ -1,0 +1,32 @@
+.sec {
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: blue;
+    width: 33%;
+}
+
+.rows {
+    column-gap: 10px;
+    row-gap: 10px;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.cols {
+    column-gap: 10px;
+    row-gap: 10px;
+    width:fit-content;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.adjust {
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,79 @@
+h1 {
+    text-align: center;
+    align-self: center;
+    font-size: 88pt;
+    -webkit-text-stroke: 2px white;
+}
+
+nav {
+    justify-content: right;
+    justify-self: right;
+}
+
+body {
+    background-image: url("../image/background.jpeg");
+}
+
+
+ul {
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+li {
+    padding: 5px;
+    color: white;
+    background-color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.begining {
+    width: 100%;
+    background-color: black;
+    justify-self: center;
+    justify-content: center;
+    display: inline-flex;
+    flex-direction: row;
+    color: white;
+    box-sizing: border-box;
+    row-gap: 10px;
+    column-gap: 10px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+.adjust {
+    width: 50%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sec {
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: blue;
+}
+
+.options {
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
