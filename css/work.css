@@ -1,0 +1,42 @@
+
+
+
+
+body {
+    background-image: url("../image/background.jpeg");
+}
+
+.adjust {
+    width: 99%;
+    height: 50%;
+    align-self: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+ul {
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+li {
+    padding: 5px;
+    color: white;
+    background-color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    align-self: center;
+    font-size: 88pt;
+    -webkit-text-stroke: 2px white;
+}

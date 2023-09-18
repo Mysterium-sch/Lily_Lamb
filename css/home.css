@@ -35,7 +35,7 @@ a {
 }
 
 .begining {
-    width: 100%;
+    width: 99%;
     background-color: black;
     justify-self: center;
     justify-content: center;
@@ -65,7 +65,8 @@ a {
     align-content: center;
     display: inline-flex;
     flex-direction: column;
-    background-color: blue;
+    background-color: black;
+    color: white;
 }
 
 .options {
