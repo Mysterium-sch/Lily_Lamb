@@ -66,6 +66,10 @@ a {
     color: white;
 }
 
+a:hover {
+    backgroundcolor: #554971; 
+}
+
 h1 {
     text-align: center;
     align-self: center;
