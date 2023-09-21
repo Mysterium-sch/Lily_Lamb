@@ -11,7 +11,7 @@ nav {
 }
 
 body {
-    background-color: #63768D;
+    background-color: #63768d;
 }
 
 
@@ -26,7 +26,7 @@ ul {
 li {
     padding: 5px;
     color: white;
-    background-color: #36213E;
+    background-color: #36213e;
 }
 
 a {
@@ -64,6 +64,7 @@ a {
     align-self: center;
     align-content: center;
     display: inline-flex;
+    wifth: 100%;
     flex-direction: column;
     background-color: black;
     color: white;
@@ -76,5 +77,6 @@ a {
     align-content: center;
     display: inline-flex;
     flex-direction: column;
-    row-gap: 10px;
+    row-gap: 20px;
+    column-gap: 10px;
 }
