@@ -1,11 +1,5 @@
 
 
-
-
-body {
-    background-color: #63768d;
-}
-
 .adjust {
     width: 99%;
     height: 50%;
@@ -15,12 +9,32 @@ body {
 }
 
 
+h1 {
+    text-align: center;
+    align-self: center;
+    font-size: 88pt;
+    color: #36213e;
+    -webkit-text-stroke: 2px white;
+}
+
+nav {
+    justify-content: right;
+    justify-self: right;
+}
+
+body {
+    background-color: #b8f3ff;
+}
+
+
 ul {
+    position: relative;
+    left: 27%;
     display: inline-flex;
     flex-direction: row;
     list-style-type: none;
     row-gap: 10px;
-    column-gap: 10px;
+    column-gap: 20%;
 }
 
 li {
@@ -32,15 +46,4 @@ li {
 a {
     text-decoration: none;
     color: white;
-}
-
-a:hover {
-    background-color: #554971; 
-}
-
-h1 {
-    text-align: center;
-    align-self: center;
-    font-size: 88pt;
-    -webkit-text-stroke: 2px white;
 }

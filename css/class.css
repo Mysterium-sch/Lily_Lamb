@@ -4,21 +4,15 @@
     align-self: center;
     align-content: center;
     display: inline-flex;
+    height: 400pt;
+    width: 400pt;
+    text-align: center;
     flex-direction: column;
     background-color: black;
     color: white;
     width: 25%;
 }
 
-.rows {
-    box-sizing: border-box;
-    align-self: center;
-    column-gap: 10px;
-    row-gap: 10px;
-    display: inline-flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
 
 .cols {
     box-sizing: border-box;
@@ -27,8 +21,8 @@
     align-self: center;
     align-content: center;
     align-self: center;
-    column-gap: 10px;
-    row-gap: 10px;
+    column-gap: 20px;
+    row-gap: 20px;
     width: 100%;
     display: inline-flex;
     flex-direction: row;
@@ -40,16 +34,15 @@
     width: 100%;
     object-fit: contain;
     box-sizing: border-box;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-right: 5px;
 }
 
 h1 {
     text-align: center;
     align-self: center;
     font-size: 88pt;
+    color: #36213e;
     -webkit-text-stroke: 2px white;
 }
 
@@ -59,16 +52,18 @@ nav {
 }
 
 body {
-    background-color: #63768d;
+    background-color: #b8f3ff;
 }
 
 
 ul {
+    position: relative;
+    left: 27%;
     display: inline-flex;
     flex-direction: row;
     list-style-type: none;
     row-gap: 10px;
-    column-gap: 10px;
+    column-gap: 20%;
 }
 
 li {
@@ -79,7 +74,6 @@ li {
 
 a {
     text-decoration: none;
-    color: white;
 }
 
 a:hover {

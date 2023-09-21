@@ -30,7 +30,7 @@ body {
     align-self: center;
     justify-self: center;
     align-content: center;
-        background-color: #63768d;
+    background-color: #b8f3ff;
 }
 
 .adjust {
@@ -42,17 +42,28 @@ body {
 }
 
 
+h1 {
+    text-align: center;
+    align-self: center;
+    font-size: 88pt;
+    color: #36213e;
+    -webkit-text-stroke: 2px white;
+}
+
 nav {
     justify-content: right;
     justify-self: right;
 }
 
+
 ul {
+    position: relative;
+    left: 27%;
     display: inline-flex;
     flex-direction: row;
     list-style-type: none;
     row-gap: 10px;
-    column-gap: 10px;
+    column-gap: 20%;
 }
 
 li {
@@ -68,11 +79,4 @@ a {
 
 a:hover {
     background-color: #554971; 
-}
-
-h1 {
-    text-align: center;
-    align-self: center;
-    font-size: 88pt;
-    -webkit-text-stroke: 2px white;
 }
