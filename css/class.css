@@ -59,7 +59,7 @@ nav {
 }
 
 body {
-    background-image: url("../image/background.jpeg");
+    background-color: #63768d;
 }
 
 
@@ -74,7 +74,7 @@ ul {
 li {
     padding: 5px;
     color: white;
-    background-color: grey;
+    background-color: #36213e;
 }
 
 a {
