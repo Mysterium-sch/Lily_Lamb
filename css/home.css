@@ -57,6 +57,7 @@ a {
 
 .adjust {
     width: 50%;
+    object-fit: contain;
     box-sizing: border-box;
     margin-top: 10px;
     margin-bottom: 10px;

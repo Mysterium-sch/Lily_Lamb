@@ -1,33 +1,33 @@
 .sec {
     position: relative;
-    left: 11%;
+    left: 3%;
     object-fit: contain;
     display: inline-flex;
-    height: 400pt;
+    height: 500pt;
     width: 400pt;
     text-align: center;
     flex-wrap: wrap;
     flex-direction: column;
     color: white;
     background-color: #63768d;
-    width: 25%;
+    width: 30%;
     margin-bottom: 20px;
     margin-right: 10px;
     padding: 5px;
 }
 .sec2 {
     position: relative;
-    left: 11%;
+    left: 3%;
     object-fit: contain;
     display: inline-flex;
-    height: 400pt;
+    height: 500pt;
     width: 400pt;
     text-align: center;
     flex-wrap: wrap;
     flex-direction: column;
     background-color: #8ac6d0; 
     color: #36213e;
-    width: 25%;
+    width: 30%;
     margin-bottom: 20px;
     margin-right: 10px;
     padding: 5px;
@@ -47,12 +47,12 @@
 
 
 .adjust {
+    align-self: center;
     padding: 10px;
-    width: 100%;
+    width:450px;
+    height: 450px;;
     object-fit: contain;
     box-sizing: border-box;
-    margin-bottom: 5px;
-    margin-right: 5px;
 }
 
 h1 {
@@ -70,6 +70,7 @@ nav {
 
 body {
     background-color: #b8f3ff;
+    overflow-x: hidden;
 }
 
 

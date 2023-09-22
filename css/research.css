@@ -39,6 +39,7 @@
 
 body {
     justify-content: center;
+    overflow-x: hidden;
     align-self: center;
     justify-self: center;
     align-content: center;

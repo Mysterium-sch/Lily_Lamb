@@ -1,11 +1,12 @@
 
 
 .adjust {
-    width: 99%;
-    height: 50%;
+    position: relative;
+    left: 12%;
+    width: 75%;
+    height: 1375px;
     align-self: center;
-    margin-right: 10px;
-    margin-left: 10px;
+    border: 30px solid #36213e;
 }
 
 
@@ -24,6 +25,12 @@ nav {
 
 body {
     background-color: #b8f3ff;
+    overflow-x: hidden;
+}
+
+
+.adjust:hover {
+    border: 30px solid #554971;
 }
 
 

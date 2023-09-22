@@ -43,10 +43,11 @@ body {
     justify-self: center;
     align-content: center;
     background-color: #b8f3ff;
+    overflow-x: hidden;
 }
 
 .adjust {
-    width: 30%;
+    width: 450px;
     box-sizing: border-box;
     margin-top: 10px;
     margin-bottom: 10px;
