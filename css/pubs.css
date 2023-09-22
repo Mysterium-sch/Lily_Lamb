@@ -15,6 +15,17 @@
 
 }
 
+.sec2 {
+    object-fit: contain;
+    display: inline-flex;
+    flex-direction: row;
+    width: 75%;
+    background-color: black;
+    column-gap: 20px;
+    background-color: #8ac6d0;
+    color: #36213e;
+}
+
 .sec {
     object-fit: contain;
     display: inline-flex;
@@ -23,6 +34,7 @@
     background-color: black;
     column-gap: 20px;
     color: white;
+    background-color: #63768d;
 }
 
 body {
@@ -61,7 +73,6 @@ ul {
     left: 27%;
     display: inline-flex;
     flex-direction: row;
-    color: white;
     list-style-type: none;
     row-gap: 10px;
     column-gap: 20%;
@@ -74,10 +85,20 @@ li {
 }
 
 a {
-    color: white;
     text-decoration: none;
+    color: white;
 }
 
 li:hover {
     background-color: #554971; 
+}
+
+
+.sec:hover {
+    background-color: #554971; 
+    color: white;
+}
+.sec2:hover {
+    background-color: #554971; 
+    color: white;
 }
