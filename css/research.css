@@ -8,6 +8,7 @@
 }
 
 .rows2 {
+    padding:10pt;
     text-wrap: wrap;
     display: inline-flex;
     flex-direction: column;
