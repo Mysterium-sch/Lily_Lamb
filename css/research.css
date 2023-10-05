@@ -94,6 +94,10 @@ li {
     background-color: #36213e;
 }
 
+.pic {
+    border: 2pt solid #36213e; 
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -115,8 +119,9 @@ li:hover {
 
 @media screen and (max-width: 1400px){
 
-    .adjust {
+    .pic {
         width: 0px;
+        border: none; 
         height: 0px;
     }
     
