@@ -16,6 +16,14 @@
 
 }
 
+.cols {
+    padding:10pt;
+    text-wrap: wrap;
+    display: inline-flex;
+    flex-direction: row;
+    row-gap: 20px;
+}
+
 .sec2 {
     object-fit: contain;
     display: inline-flex;
